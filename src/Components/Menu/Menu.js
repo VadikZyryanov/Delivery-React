@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import dbMenu from './DBMenu';
+import dbMenu from '../DBMenu';
 import { ListItem } from './ListItem';
-import bannerImg from '../image/banner.png';
+import { Banner } from './banner';
 
 const MenuStyled = styled.main`
     background-color: #ccc;
@@ -14,13 +14,13 @@ const SectionMenu = styled.section`
     padding: 30px;
 `;
 
-const Banner = styled.div`
-    height: 250px;
-    width: 100%;
-    background-image: url(${bannerImg});
-    background-position: center;
-    background-size: cover;
-`;
+// const Banner = styled.div`
+//     height: 250px;
+//     width: 100%;
+//     background-image: url(${bannerImg});
+//     background-position: center;
+//     background-size: cover;
+// `;
 
 export const Menu = ({ setOpenItem }) => (
     <MenuStyled>

@@ -26,6 +26,7 @@ const dbMenu = {
 			img: '/menu/black-burger.png',
 			id: 4,
 			price: 150,
+			toppings: [],
 		},
 		{
 			name: 'React Burger',
